@@ -30,18 +30,15 @@ void methodArray (string [] array)
             newArray[i]=array[i];
             Console.Write(newArray[i]);
             if (i < newArray.Length -1 )
-        {
-             Console.Write(", ");
-        } 
+            {
+                Console.Write(", ");
+            } 
         }
     }
-        Console.WriteLine(); 
+    
 }
 
-
-
 string [] array = {"hello", "2", "world", "^-)"};
-
 
 Print(array);
 methodArray(array);
